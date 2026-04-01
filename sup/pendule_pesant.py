@@ -1,5 +1,5 @@
 import numpy as np
-import approx as ap
+import sup.approx as ap
 
 
 def moy(val_l):

@@ -1,3 +1,4 @@
 not_mine/
 .vscode/
 __pycache__/
+.DS_Store

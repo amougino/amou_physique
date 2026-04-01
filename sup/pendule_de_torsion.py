@@ -1,4 +1,4 @@
-import approx as ap
+import sup.approx as ap
 import numpy as np
 
 m = 0.2
