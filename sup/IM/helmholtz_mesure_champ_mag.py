@@ -28,7 +28,7 @@ def B_theo_2_sans_const(so1, so2, x, R=7):
     return b1 - b2
 
 
-df1 = pd.read_csv(os.path.expanduser('~/Desktop/physique/sup/mesures_champ_mag.csv'))
+df1 = pd.read_csv(os.path.expanduser('~/Desktop/physique/sup/IM/helmholtz_mesures_champ_mag.csv'))
 
 s1_1 = 13.5
 s2_1 = 22.5
@@ -39,7 +39,7 @@ maxi1 = np.max(B_sans1)
 rapport1 = B_sans1 / maxi1
 
 
-df2 = pd.read_csv(os.path.expanduser('~/Desktop/physique/sup/mesures_champ_mag_anti.csv'))
+df2 = pd.read_csv(os.path.expanduser('~/Desktop/physique/sup/IM/helmholtz_mesures_champ_mag_anti.csv'))
 
 s1_2 = 8.5
 s2_2 = 17.5
